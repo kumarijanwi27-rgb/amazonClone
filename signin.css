@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+/* Logo */
+.logo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo img{
+    width: 120px;
+    height: 60px;
+    background-size: cover;
+    background-color: hsl(180, 6%, 6%);
+}
+
+/* Sign in container */
+.signin_container{
+    width: 350px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.signin_container h2{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.signin_container label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.signin_container input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    outline: none;
+}
+
+.signin_container input:focus{
+    border: 2px solid #f0c14b;
+}
+
+/* Button */
+.signin_container button{
+    width: 100%;
+    padding: 10px;
+    background: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signin_container button:hover{
+    background: #ddb347;
+}
+
+.terms{
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.terms a{
+    color: blue;
+    text-decoration: none;
+}
+
+.terms a:hover{
+    text-decoration: underline;
+}
+
+.work{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.business{
+    font-size: 13px;
+    color: blue;
+    text-decoration: none;
+}
+
+.business:hover{
+    text-decoration: underline;
+}
+
+/* Footer */
+footer{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+
+.footer_links a{
+    margin: 0 10px;
+    color: blue;
+    text-decoration: none;
+}
+
+.footer_links a:hover{
+    text-decoration: underline;
+}
